@@ -1,0 +1,83 @@
+.header{
+	width:95.30%;
+	height:auto;
+	border: 3px solid transparent;
+	border-color: black;
+	float:right;
+	margin-right: 2%
+}
+.text1{
+	font-size:30pt;
+	color:white; 
+	padding:5px;
+	animation-name: head;
+    animation-duration: 20s;
+    animation-iteration-count: 100000;
+}
+.text2{
+	font-size:20pt;
+	color:white; 
+	padding:5px;
+	animation-name: head;
+    animation-duration: 20s;
+    animation-iteration-count: 100000;
+}
+.body{
+	font-size: 15pt;
+	background-color: #ffdbac;
+	width:95.30%;
+	height:auto;
+	border: 3px solid transparent;
+	border-color: blue;
+	float:right;
+	margin-right:2%;
+}
+.footer{
+	width:95.30%;
+	height:auto;
+	border: 3px solid transparent;
+	border-color: black;
+	float:right;
+	margin-right: 2%
+}
+@keyframes head {
+  0%   {background-color: #d11141;}
+  25%  {background-color: #00b159;}
+  50%  {background-color: #00aedb;}
+  75%  {background-color: #f37735;}
+  100% {background-color: #ffc425;}
+}
+.about{
+	float:right;
+	width: 85%;
+}
+h3{
+	color:white;
+	width:24%;
+	padding:14px;
+	border:5px solid transparent;
+	border-color:#edc951;
+	border-style: groove;
+	border-radius: 30px;
+	background-color:#0e9aa7;
+}
+h3:hover{
+	background-color:#3b5998 ;
+}
+a{
+	color:white;
+}
+a:hover{
+	color:red;
+}
+
+.body .profile {
+      background: url("mypics.jpg") no-repeat; 
+      position: relative;
+      display: inline-block;  
+}
+
+.body:hover .profile {
+       display:inline;
+}
+
